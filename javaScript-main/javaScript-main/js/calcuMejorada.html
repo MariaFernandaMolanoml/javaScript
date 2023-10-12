@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./calculadora.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div class="caja">
+        <input type="number" id="n1" class="formControl" placeholder="Numero 1"> <br>
+        <input type="number" id="n2" class="formControl" placeholder="Numero 2"> <br>
+        <select class="formSelected" aria-label="Default select example" id="opc">
+            <option selected>Opcion</option>
+            <option value="1">Sumar</option>
+            <option value="2">Restar</option>
+            <option value="3">Multiplicar</option>
+            <option value="4">Dividir</option>
+            <option value="5">Potencia del primer numero</option>
+        </select>
+    <br>
+        <button onclick="mostrar()" id="btnCal" class="btn btn-outline-dark">Calculadora Avanzada</button>
+    </div>
+    <div class="alert" role="alert" id="respuesta">
+        <strong id="resultado"></strong>
+        <!-- <button type="button" class="btnCal" data-bs-dismiss="alert" aria-label="close"></button> -->
+
+</div>
+</div>    
+</body>
+</html>
