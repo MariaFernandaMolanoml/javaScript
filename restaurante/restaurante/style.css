@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif; /* Se establece la fuente del texto como Arial o una fuente sans-serif generica */
+  text-align: center; /* Se alinea el texto al centro */
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5d7525de-b2fb-49f9-820b-23cacd4e5cb3/dd04wye-e28e4b24-da5f-4d00-bf19-f24ad3340cc3.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVkNzUyNWRlLWIyZmItNDlmOS04MjBiLTIzY2FjZDRlNWNiM1wvZGQwNHd5ZS1lMjhlNGIyNC1kYTVmLTRkMDAtYmYxOS1mMjRhZDMzNDBjYzMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1_oqjEN1LeXZGiqXFQDnY7w9fRQwSCH7TiSlw0AYm-Y); /* Se establece una imagen de fondo para el body*/
+  background-size: cover; /* La imagen de fondo se ajusta para cubrir todo el contenedor */
+}
+/* Definición de una fuente personalizada */
+@font-face {
+  font-family: 'SnowtopCaps'; /* Se define el nombre de la fuente personalizada */
+  src: url('SnowtopCaps.otf') format('truetype'); /* Se especifica la URL de la fuente y su formato */
+}
+
+/* Estilos para todos los encabezados h1 */
+h1 {
+  color: #020202; /* Se establece el color del texto */
+  margin: 20px 0; /* Se define el margen alrededor del elemento */
+  font-family: 'SnowtopCaps', sans-serif; /* Se define la fuente a utilizar, priorizando 'SnowtopCaps' si está disponible */
+  font-size: 40px; /* Se define el tamaño de la fuente */
+}
+
+/* Estilos para una caja */
+.caja {
+  background-color: #ffffff46; /* Se establece el color de fondo de la caja */
+  padding: 20px; /* Se añade relleno alrededor del contenido de la caja */
+  border-radius: 10px; /* Se establece el radio de borde para la caja */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Se agrega una sombra a la caja */
+  max-width: 450px; /* Se establece el ancho maximo de la caja */
+  margin: 0 auto; /* Se centra la caja horizontalmente en la pagina */
+}
+
+/* Estilos para un selector */
+.selector {
+  width: 100%; 
+  padding: 10px; /* Se añade relleno alrededor del selector */
+  margin-bottom: 10px; /* Se establece un margen inferior para el selector */
+  background-color: #ffffffb7; /* Se establece el color de fondo del selector */
+  color: #000000; /* Se establece el color del texto del selector */
+}
+   
+ /* Estilos para una entrada de cantidad */
+.cantInput {
+  width: 94%; /* Se establece el ancho del campo de entrada de cantidad al 94% */
+  padding: 10px; /* Se añade relleno alrededor del campo de entrada de cantidad */
+  margin-bottom: 10px; /* Se establece un margen inferior para el campo de entrada de cantidad */
+  background-color: #ffffffa1; /* Se establece el color de fondo del campo de entrada de cantidad */
+}
+
+/* Estilos para un botón con ID 'botonR' */
+#botonR {
+  background-color: #007bff; /* Se establece el color de fondo del botón */
+  color: #fff; /* Se establece el color del texto del botón */
+  padding: 10px 20px; /* Se añade relleno alrededor del contenido del botón */
+  border: none; /* Se elimina el borde del botón */
+  border-radius: 5px; /* Se establece el radio de borde para el botón */
+  cursor: pointer; /* Se cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s; /* Se agrega una transición al cambiar el color de fondo del botón */
+}
+
+/* Estilos para el botón con ID 'botonR' al pasar el cursor sobre el */
+#botonR:hover {
+  background-color: #b30600; /* Se cambia el color de fondo del boton al pasar el cursor sobre el */
+}
+
+/* Estilos para un elemento con ID 'respuesta' */
+#respuesta {
+  display: none; /* Se establece el elemento como no visible por defecto */
+  margin: 20px 0; /* Se establece un margen alrededor del elemento */
+  font-size: 18px; /* Se establece el tamaño de la fuente del elemento */
+}
+
+/* Estilos para un elemento con ID 'resultado' */
+#resultado {
+  color: #01080e; /* Se establece el color del texto del elemento */
+}
+
+/* Media Query para dispositivos pequeños */
+@media (max-width: 768px) {
+  .caja {
+      max-width: 100%; 
+      padding: 10px; /* Se reduce el relleno alrededor del contenido de la caja en dispositivos pequeños */
+  }
+}

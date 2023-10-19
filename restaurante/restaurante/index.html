@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RESTAURANTE</title>
+</head>
+<body>
+    <div>
+            <!-- enlace con JavaScript -->
+        <script src="./restaurante.js"></script>
+
+        <h1>El rincón del cangrejo</h1>
+            <div class="caja">
+                <select class="selector" id="menu">
+                    <option selected>Entrada</option>
+                    <option value="1">Anillos de calamar</option>
+                    <option value="2">Chips de pulpo</option>
+                    <option value="3">Palitos de calamar</option>
+                </select>
+                <input type="number" id="cantidad" class="cantInput" placeholder="Cantidad"> <br>
+                <select class="selector" id="menu2">
+                    <option selected>Cazuelas</option>
+                    <option value="1">Cazuela de camaron</option>
+                    <option value="2">Cazuela marinera</option>
+                    <option value="3">Cazuela de langostinos</option>
+                </select>
+                <input type="number" id="cantidad2" class="cantInput" placeholder="Cantidad"> <br>
+                <select class="selector" id="menu3">
+                    <option selected>Ceviche</option>
+                    <option value="1">Ceviche de camaron</option>
+                    <option value="2">Ceviche peruano</option>
+                    <option value="3">Ceviche de langostinos</option>
+                </select>
+                <input type="number" id="cantidad3" class="cantInput" placeholder="Cantidad"> <br>
+                <select class="selector" id="menu4">
+                    <option selected>Bebidas</option>
+                    <option value="1">Frutos del bosque</option>
+                    <option value="2">Limonada natural</option>
+                    <option value="3">Gaseosa</option>
+                </select>
+                <input type="number" id="cantidad4" class="cantInput" placeholder="Cantidad"> <br>
+           
+                <button onclick="mostrar()" id="botonR">Cuenta</button>
+            </div>
+            <div id="respuesta">
+                <strong id="resultado"></strong>
+            </div>
+    </div>
+
+</body>
+</html>
