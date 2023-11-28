@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/003/127/954/non_2x/abstract-template-blue-background-white-squares-free-vector.jpg'); 
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; 
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    color: rgb(3, 3, 3);
+}
+
+/* Nuevos estilos para la seccion de productos */
+.productSection {
+    margin-top: 20px;
+}
+
+.productTitle {
+    color: #141414; /* Color del texto del titulo */
+    text-align: center;
+    font-family: 'Moirai One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
+}
+
+.productItem {
+    border: 1px solid #0d0d0e;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.productTitle {
+    margin-bottom: 50px;
+}
+
+img {
+    width: 50%; /* Imágenes ocupan el 100% del ancho del contenedor */
+    height: 50vh; /* Altura automática para mantener la proporción */
+    border: 1px solid #f5ffff;
+    margin-bottom: 10px;
+    margin: 0 30px;
+}
+
+.productDetails {
+    margin-top: 10px;
+}
+
+.productTotal {
+    font-weight: bold;
+    color: red;
+}
+
+.productActions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button {    
+    margin: 0 5px;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moirai+One&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>AnimeMuven</title>
+</head>
+<body>
+    <div class="container productSection">
+        <h1 class="productTitle">MUVEN´SHOP ANIME Y JUEGOS </h1>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="productItem">
+                    <h5 class="productTitle">FunkoPOP-Ryuk</h5>
+                    <img src="https://mushyhead.com/cdn/shop/products/death_note_ryuk_box_300x300.png?v=1559175608" alt="" class="productImage">
+                    <div class="productDetails">
+                        <p>Precio x unidad <br> $ 62.900</p>
+                        <p>Cantidad</p>
+                        <p><span id="valor">0</span></p>
+                        <p>Valor Total</p>
+                        <p><span id="valorRyuk" class="productTotal">0</span></p>
+                    </div>
+                </div>
+                <div class="productActions">
+                    <button type="button" class="btn btn-dark" onclick="incremento()">+</button>
+                    <button type="button" class="btn btn-dark" onclick="decremento()">-</button>
+                    <button type="button" class="btn btn-danger" onclick="resetear()"><i class="fas fa-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="productItem">
+                    <h5 class="productTitle">Figura de Yuumi</h5>
+                    <img src="https://images.contentstack.io/v3/assets/blt5bbf09732528de36/blt9da0050cbf9ffdc7/63e17af014a2b44fa11df7ed/Heartseeker-Yuumi_Figure_Front_Shot_1.png" alt="" class="productImage">
+                    <div class="productDetails">
+                        <p class="productPrice">Precio x unidad <br> $ 54.900</p>
+                        <p class="productQuantity">Cantidad</p>
+                        <p><span id="valor2">0</span></p>
+                        <p>Valor Total</p>
+                        <p><span id="valorYuumi" class="productTotal">0</span></p>
+                    </div>
+                </div>
+                <div class="productActions">
+                    <button type="button" class="btn btn-dark" onclick="incremento2()">+</button>
+                    <button type="button" class="btn btn-dark" onclick="decremento2()">-</button>
+                    <button type="button" class="btn btn-danger" onclick="resetear2()"><i class="fas fa-trash"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

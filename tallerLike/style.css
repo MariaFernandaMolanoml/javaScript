@@ -1,0 +1,46 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Anime-Background-Desktop.gif);
+}
+
+.containear {
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(44, 1, 22); /* Cambia el color del texto del encabezado segun tu preferencia */
+}
+
+h2 {
+    color: rgb(95, 2, 2); /* Cambia el color del texto del subencabezado segun tu preferencia */
+}
+
+#incrementar {
+    background-color: #093553; /* Color azul para el boton de sumar */
+    color: #fff; /* Color de texto blanco */
+    margin-bottom: 20px;
+    width: 25%;
+    border: #333;
+}
+
+#restar {
+    background-color: #971305; /* Color rojo para el boton de restar */
+    color: #fff; /* Color de texto blanco */
+    margin-bottom: 10px;
+    width: 25%;
+}
+
+#resetear {
+    background-color: #640131; /* Color rosado para el boton de resetear */
+    color: #fff; /* Color de texto blanco */
+    margin-bottom: 10px;
+    width: 25%;
+}
